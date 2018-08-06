@@ -1,0 +1,54 @@
+.welcomeLoad{
+	display: block;
+	width: 100%;
+	height: 1010px;
+	background-color: #111419;
+}
+.welcomeImg{
+	width: 100%;
+	height: 700px;
+	text-align: center;
+	overflow: hidden;
+}
+.welcomeImg img{
+	height: 700px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.welcomeContent{
+	width: 900px;
+	height: 190px;
+	margin: 0 auto;
+	text-align: center;
+}
+.welcomeContent img{
+	width: 400px;
+}
+.welcomeContent p{
+	width: 80%;
+	margin: 15px auto 20px;
+	font-size: 24px;
+	color: #fff;
+}
+.welcomeContent span{
+	display: inline-block;
+	color: #fff;
+	width: 248px;
+	height: 44px;
+	line-height: 44px;
+	margin: 0 12px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.welcomeContent span:first-child{
+	border: 1px solid #f56c2d;
+	background-color: #f56c2d;
+	transition: all .5s;
+}
+.welcomeContent span:first-child:hover{
+	background-color: rgba(245,108,45,.8);
+}
+.welcomeContent span:last-child{
+	border: 1px solid #fff;
+}

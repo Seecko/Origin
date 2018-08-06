@@ -1,0 +1,51 @@
+.mainLoad{
+	width: 100%;
+	height: 100%;
+}
+.stick{
+	display: block;
+	height: 450px;
+	background: url(../img/OApremier_launch_store_hero_png_ww_v2.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 0 70px;
+}
+.stick-left{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.stick-left>div{
+	display: table;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	padding-right: 30px;
+}
+.stick-left img{
+	width: 270px;
+	height: 54px;
+}
+
+.stick-right{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.stick-right>div{
+	display: table;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.stick-right img{
+	width: 100%;
+}

@@ -1,0 +1,126 @@
+.sideBarLoad{
+	width: 280px;
+	float: left;
+	height: 100%;
+	background-color: #1e262c;
+	position: fixed;
+}
+.logo{
+	width: 100%;
+	height: 31px;
+	padding: 15px 0;
+}
+.search{
+	width: 250px;
+	height: 45px;
+	border-radius: 23px;
+	background-color: #fff;
+	margin: 0 auto 16px;
+	text-align: center;
+	line-height: 45px;
+	color: #787d85;
+}
+.search i:first-child{
+	font-size: 22px;
+}
+.search i:last-child{
+	visibility: hidden;
+	cursor: pointer;
+}
+.search input{
+	border: none;
+	outline: none;
+	width: 180px;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	top: -3px;
+	font-size: 14px;
+}
+.store{
+	padding-bottom: 8px;
+}
+.store a{
+	display: block;
+	color: #fff;
+	opacity: .7;
+	transition: all .5s;
+}
+.store a:nth-child(1),.store a:nth-child(2){
+	padding: 7px 20px;
+}
+.store a:nth-child(3),.store a:nth-child(4){
+	padding: 6px 20px;
+	font-size: 14px;
+	text-indent: 1.5em;
+}
+.store a:nth-child(2){
+	border-left: 4px solid #f56c2d;
+	padding-left: 16px;
+	background-color: rgba(255,255,255,.3);
+	opacity: 1;
+}
+.store a:hover{
+	background-color: rgba(255,255,255,.2);
+	opacity: 1;
+}
+.store a:active{
+	border-left: 4px solid #f56c2d;
+	padding-left: 16px;
+}
+.about{
+	border-top: 1px solid rgba(255,255,255,.1);
+	padding: 12px 20px 0 20px;
+}
+.about a{
+	font-size: 14px;
+	color: #fff;
+	opacity: .4;
+	transition: all .5s;
+}
+.about a:hover{
+	opacity: 1;
+}
+.about i{
+	color: #fff;
+	opacity: .4;
+}
+
+.login{
+	position: absolute;
+	bottom: 0;
+	padding: 18px;
+}
+.login>a{
+	display: block;
+	width: 242px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.login>a:first-child{
+	background-color: #f56c2d;
+	border-radius: 5px;
+	transition: all .5s;
+	border: 1px solid #f56c2d;
+}
+.login>a:first-child:hover{
+	background-color: rgba(245,108,45,.8);
+}
+.login>a:nth-child(2){
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	margin: 12px 0;
+}
+.login>a:nth-child(3){
+	width: 244px;
+	height: 33px;
+	border-top: 1px solid rgba(255,255,255,.1);
+	opacity: .8;
+}
+.login>a:nth-child(3):hover span{
+	text-decoration: underline;
+}

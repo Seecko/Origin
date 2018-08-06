@@ -1,0 +1,23 @@
+div,p,table,form,input,tr,td,th,dl,dt,dd,legend,fieldset{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	border: none;
+}
+body{
+	font-family: "微软雅黑",arial;
+}
