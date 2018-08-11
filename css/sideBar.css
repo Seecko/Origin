@@ -92,22 +92,7 @@
 	padding: 18px;
 }
 .login>a{
-	display: block;
 	width: 242px;
-	height: 44px;
-	line-height: 44px;
-	text-align: center;
-	color: #fff;
-	font-size: 14px;
-}
-.login>a:first-child{
-	background-color: #f56c2d;
-	border-radius: 5px;
-	transition: all .5s;
-	border: 1px solid #f56c2d;
-}
-.login>a:first-child:hover{
-	background-color: rgba(245,108,45,.8);
 }
 .login>a:nth-child(2){
 	background-color: transparent;
@@ -116,10 +101,16 @@
 	margin: 12px 0;
 }
 .login>a:nth-child(3){
+	display: block;
+	line-height: 25px;
+	text-align: center;
 	width: 244px;
-	height: 33px;
+	height: 25px;
 	border-top: 1px solid rgba(255,255,255,.1);
 	opacity: .8;
+	color: #fff;
+	font-size: 14px;
+	padding-top: 10px;
 }
 .login>a:nth-child(3):hover span{
 	text-decoration: underline;

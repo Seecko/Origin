@@ -19,11 +19,12 @@
 				height: 100%;
 			}
 			.indexContent{
-				height: 100%;
+				margin-left: 280px;
+				overflow-x: hidden;
+			}
+			.indexFooter{
 				margin-left: 280px;
 			}
-			
-			
 		</style>
 	</head>
 	<body>
@@ -40,14 +41,6 @@
 		</div>
 	</body>
 	<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/sideBar.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript">
-		$(function(){
-			$(".indexNav").load("sideBar.html .sideBarLoad");
-			$(".indexContent").load("welcome.html .welcomeLoad");
-			$(".indexFooter").load("footer.html .footerLoad");
-		});
-		
-//		indexContent主页面中的a链接点击时同样要像sideBar中的a链接点击一样,但顺序为load新页面css,html和js清除旧页面html,css,js
-	</script>
+	<script src="js/sea.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
 </html>
