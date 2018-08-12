@@ -1,0 +1,138 @@
+body {
+  position: relative; }
+
+.reg-header {
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  height: 58px;
+  padding-left: 40px;
+  border-bottom: 1px solid #c3c6ce;
+  z-index: 1;
+  background-color: #fff; }
+
+.reg-header a {
+  box-sizing: border-box;
+  float: left;
+  margin-right: 36px;
+  height: 58px;
+  line-height: 58px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #000;
+  border-bottom: 2px solid transparent;
+  font-weight: bold; }
+
+.reg-header a:last-child {
+  border-color: #f56c2d; }
+
+.reg-content {
+  padding: 24px 40px;
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  margin-top: 58px; }
+
+.backOff {
+  font-size: 11px;
+  line-height: 16px;
+  color: rgba(120, 125, 133, 0.7);
+  font-weight: bold;
+  display: block;
+  margin: -5px 0 8px 0;
+  transition: all .3s; }
+
+.icon-backoff {
+  font-size: 14px;
+  margin-right: 10px; }
+
+.backOff:hover {
+  color: #000; }
+
+.backOff:hover .icon-backoff {
+  position: relative;
+  left: -2px; }
+
+.reg-content h1 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 24px; }
+
+#checkEmail, #checkId {
+  margin: 12px 0;
+  height: 24px;
+  line-height: 24px;
+  color: #df3d00;
+  font-size: 16px;
+  display: none; }
+
+.checkPass {
+  width: 175px;
+  height: 123px;
+  position: absolute;
+  display: none; }
+
+.up {
+  position: absolute;
+  border: 5px solid transparent;
+  border-bottom-color: #000;
+  width: 0;
+  height: 0;
+  left: 15px;
+  top: -10px; }
+
+.checkPass-msg {
+  width: 175px;
+  height: 118px;
+  box-sizing: border-box;
+  background-color: #000;
+  position: absolute;
+  z-index: 2;
+  border-radius: 4px;
+  color: #c3c6ce;
+  font-size: 10px;
+  padding: 3px 8px;
+  line-height: 22px; }
+
+.checkPass-msg i {
+  position: static;
+  font-size: 12px; }
+
+.checkPass-msg .icon-close {
+  color: #ff6550; }
+
+.checkPass-msg .icon-check {
+  color: #04bd68; }
+
+.checkPass-msg span {
+  color: #fff; }
+
+#firstname, #lastname {
+  padding-left: 10px; }
+
+.primary {
+  display: block;
+  color: #2ac4f5;
+  font-size: 16px;
+  margin-bottom: 24px; }
+
+.primary:hover {
+  text-decoration: underline; }
+
+.reg-footer {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #edf1f2;
+  position: fixed;
+  bottom: 4px; }
+
+.reg-footer img {
+  height: 20px;
+  margin: 10px 12px 10px 24px;
+  vertical-align: middle; }
+
+.reg-footer span {
+  color: #787d85;
+  font-size: 12px; }

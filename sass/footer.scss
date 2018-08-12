@@ -1,0 +1,85 @@
+$fontColor:rgba(0,0,0,.5);
+$fontSize:14px;
+$lineHeight:30px;
+$orange:#f56c2d;
+
+.footerLoad{
+    padding: 60px 45px 12px;
+    overflow: hidden;
+    height: 307px;
+}
+.footerLoad>div{
+    float: left;
+    width: 33.33%;
+}
+.footerLoad a:hover{
+    text-decoration: underline;
+}
+.footerLoad li{
+    line-height: $lineHeight;
+}
+.footerLoad a{
+    font-size: $fontSize;
+    color: $fontColor;
+}
+.language{
+    position: relative;
+}
+.language>div{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+.language select{
+    padding: 10px;
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid rgb(166,166,166);
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    transition: all .5s;
+    margin-bottom: 24px;
+    text-indent: 2em;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.language select:focus{
+    border: 1px solid $orange;
+}
+.language i:nth-child(3){
+    color: #c3c6ce;
+    font-size: 23px;
+    position: absolute;
+    top: 32px;
+    left: 8px;
+}
+.language i:nth-child(4){
+    font-size: 23px;
+    position: absolute;
+    top: 32px;
+    right: 8px;
+    color: #666;
+}
+.other p:nth-child(1){
+    font-size: 14px;
+    line-height: 18px;
+}
+.other p:nth-child(2),.other p:nth-child(3),.other p:nth-child(4){
+    margin: 12px 0;
+}
+.other a{
+    font-size: 12px;
+    color: #2ac4f5;
+}
+.other p:nth-child(4),.other p:nth-child(5){
+    font-size: 12px;
+    color: #787d85;
+}
+.other p:nth-child(2),.other p:nth-child(3),.other p:nth-child(4),.other p:nth-child(5){
+    line-height: 20px;
+}

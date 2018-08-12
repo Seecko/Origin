@@ -9,19 +9,70 @@
 	</head>
 	<body>
 		<div class="reg-header">
-			<a href="#">登入</a>
-			<a href="#">建立账号</a>
+			<a href="login.html">登入</a>
+			<a href="reg.html">建立账号</a>
 		</div>
 		<div class="reg-content">
 			<h1>
-				登入您的EA账号
+				建立您的EA账号
 			</h1>
-			<div class="">
-				
+			<div class="lct">
+				<p class="lct-tit">
+					国家/地区
+				</p>
+				<span>
+					<i class="icon iconfont icon-location"></i>
+					<select name="lct" id="lct" class="sel">
+						<option value="0" selected>国家/地区</option>
+						<option value="TT">千里达及托巴哥</option>
+						<option value="TR">土耳其</option>
+						<option value="TC">土克斯科群岛</option>
+						<option value="TM">土库曼</option>
+						<option value="BT">不丹</option>
+						<option value="CF">中非共和国</option>
+						<option value="CN">中国</option>
+					</select>
+					<i class="icon iconfont icon-downarrow"></i>
+				</span>
 			</div>
-			<select name="lct" class="lct">
-				<option value=""></option>
-			</select>
+			<div class="btd">
+				<p class="btd-tit">
+					出生日期
+				</p>
+				<span>
+					<select name="year" id="year" class="sel">
+						<option value="0" selected>年</option>
+					</select>
+					<i class="icon iconfont icon-downarrow"></i>
+				</span>
+				<span>
+					<select name="month" id="month" class="sel">
+						<option value="0" selected>月</option>
+					</select>
+					<i class="icon iconfont icon-downarrow"></i>
+				</span>
+				<span>
+					<select name="day" id="day" class="sel">
+						<option value="0" selected>日</option>
+					</select>
+					<i class="icon iconfont icon-downarrow"></i>
+				</span>
+			</div>
+			<div class="agrement">
+				<span>
+					<i class="icon iconfont icon-check"></i>
+				</span>
+				<p>
+					<span>我已阅读并接收</span>
+					<a href="#">使用者协议</a>
+					<span>和 EA</span>
+					<a href="#">隐私与Cookie政策</a>
+					<span>。</span>
+				</p>
+			</div>
+			<div id="next" class="btn-disabled">
+				下一步
+			</div>
 		</div>
 		<div class="reg-footer">
 			<img src="img/EA_Origin_Lockup_Black.png"/>
@@ -29,4 +80,6 @@
 		</div>
 	</body>
 	<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/sea.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/reg.js" type="text/javascript" charset="utf-8"></script>
 </html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/init.css"/>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reg3.css"/>
+	</head>
+	<body>
+		<div class="reg-header">
+			<a href="login.html">登入</a>
+			<a href="reg.html">建立账号</a>
+		</div>
+		<div class="reg-content">
+			<a href="javascript:history.back()" class="backOff">
+				<i class="icon iconfont icon-backoff"></i>
+				上一步
+			</a>
+			<h1>
+				建立您的EA账号
+			</h1>
+			<div class="inp">
+				<p class="noShow"></p>
+				<span>
+					<select name="quest" id="quest" class="sel">
+						<option value="0" selected>选择一个安全问题</option>
+						<option value="您念哪一所小学？">您念哪一所小学？</option>
+						<option value="您念喜爱宠物的名字？">您念喜爱宠物的名字？</option>
+						<option value="您的父母在哪里相遇？">您的父母在哪里相遇？</option>
+						<option value="您去哪里度蜜月？">您去哪里度蜜月？</option>
+						<option value="您在哪条街上长大？">您在哪条街上长大？</option>
+						<option value="您小学三年的老师姓什么？">您小学三年的老师姓什么？</option>
+						<option value="您的第一份工作？">您的第一份工作？</option>
+					</select>
+					<i class="icon iconfont icon-downarrow"></i>
+				</span>
+				<span>
+					<input type="password" name="userpass" id="userpass" placeholder="安全答案" />
+				</span>
+			</div>
+			<div class="inp">
+				<p>
+					谁能看见我的设定档、活动和好友：<i></i>
+				</p>
+				<span>
+					<select name="who" id="who" class="sel">
+						<option value="everyone" selected>所有人</option>
+						<option value="friends">好友</option>
+						<option value="friendsoffriends">好友的好友</option>
+						<option value="nobody">无</option>
+					</select>
+					<i class="icon iconfont icon-downarrow"></i>
+				</span>
+			</div>
+			<div class="other">
+				<p>其他设定</p>
+				<div>
+					<span class="remenberCheck">
+						<i class="icon iconfont icon-check"></i>
+					</span>
+					<span>允许游戏玩家透过我的电子邮件找到我</span>
+				</div>
+				<div>
+					<span class="remenberCheck">
+						<i class="icon iconfont icon-check"></i>
+					</span>
+					<span>寄送电子邮件告知我有关EA的产品、消息、活动和促销。<i></i></span>
+				</div>
+			</div>
+			<div id="next" class="btn-disabled">
+				建立帐号
+			</div>
+		</div>
+		<div class="reg-footer">
+			<img src="img/EA_Origin_Lockup_Black.png"/>
+			<span>Origin 是 EA Network 的一部分.</span>
+		</div>
+	</body>
+	<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/sea.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/reg3.js" type="text/javascript" charset="utf-8"></script>
+</html>

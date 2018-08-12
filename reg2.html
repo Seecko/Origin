@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/init.css"/>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reg2.css"/>
+	</head>
+	<body>
+		<div class="reg-header">
+			<a href="login.html">登入</a>
+			<a href="reg.html">建立账号</a>
+		</div>
+		<div class="reg-content">
+			<a href="javascript:history.back()" class="backOff">
+				<i class="icon iconfont icon-backoff"></i>
+				上一步
+			</a>
+			<h1>
+				建立您的EA账号
+			</h1>
+			<div class="inp">
+				<p class="noShow"></p>
+				<span>
+					<i class="icon iconfont icon-email"></i>
+					<input type="email" name="useremail" id="useremail" placeholder="电子邮箱地址" />
+				</span>
+				<div id="checkEmail">
+					
+				</div>
+				<span>
+					<i class="icon iconfont icon-4101suo"></i>
+					<input type="password" name="userpass" id="userpass" placeholder="密码" />
+					<div class="checkPass">
+						<div class="up"></div>
+						<div class="checkPass-msg">
+							您的密码必须符合下列规定：
+							<p>
+								<i class="icon iconfont icon-close"></i>
+								<span>8-16个字元</span>
+							</p>
+							<p>
+								<i class="icon iconfont icon-close"></i>
+								<span>至少1个小写字元</span>
+							</p>
+							<p>
+								<i class="icon iconfont icon-close"></i>
+								<span>至少1个大写字元</span>
+							</p>
+							<p>
+								<i class="icon iconfont icon-close"></i>
+								<span>至少1个数字</span>
+							</p>
+						</div>
+					</div>
+				</span>
+			</div>
+			<div class="inp">
+				<p>
+					人们可以透过搜寻找到我...
+				</p>
+				<span>
+					<i class="icon iconfont icon-user"></i>
+					<input type="text" name="userid" id="userid" placeholder="公开 ID" />
+				</span>
+				<div id="checkId">
+					
+				</div>
+				<span>
+					<input type="text" name="firstname" id="firstname" placeholder="名字（选用）" />
+				</span>
+				<span>
+					<input type="text" name="lastname" id="lastname" placeholder="姓氏（选用）" />
+				</span>
+			</div>
+			<a class="primary" href="#">隐私政策</a>
+			<div id="next" class="btn-disabled">
+				下一步
+			</div>
+		</div>
+		<div class="reg-footer">
+			<img src="img/EA_Origin_Lockup_Black.png"/>
+			<span>Origin 是 EA Network 的一部分.</span>
+		</div>
+	</body>
+	<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/sea.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/reg2.js" type="text/javascript" charset="utf-8"></script>
+</html>

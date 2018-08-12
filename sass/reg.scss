@@ -1,0 +1,169 @@
+body {
+    position: relative;
+}
+
+.reg-header {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    height: 58px;
+    padding-left: 40px;
+    border-bottom: 1px solid #c3c6ce;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.reg-header a {
+    box-sizing: border-box;
+    float: left;
+    margin-right: 36px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #000;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+}
+
+.reg-header a:last-child {
+    border-color: #f56c2d;
+}
+
+.reg-content {
+    padding: 36px 40px;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    margin-top: 58px;
+}
+
+.reg-content h1 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.lct {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.lct-tit {
+    margin-bottom: 12px;
+}
+
+.lct span {
+    width: 100%;
+    position: relative;
+}
+
+.lct span i:first-child {
+    font-size: 22px;
+    color: #c3c6ce;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.lct span i:last-child {
+    font-size: 23px;
+    position: absolute;
+    top: 0;
+    right: 8px;
+    color: #666;
+}
+
+.btd {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.btd-tit {
+    margin-bottom: 12px;
+}
+
+.btd span {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32.5%;
+    position: relative;
+}
+
+.btd span:last-child {
+    padding: 0;
+}
+
+.btd select {
+    text-indent: 0;
+}
+
+.btd i {
+    font-size: 23px;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    color: #666;
+}
+
+.agrement {
+    width: 100%;
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.agrement>span:first-child {
+    display: inline-block;
+    border: 1px solid #c3c6ce;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.agrement>span:first-child:hover {
+    border: 1px solid #f56c2d;
+}
+
+
+.icon-check {
+    font-size: 14px;
+    color: #fff;
+}
+.agrement>p:last-child{
+    position: absolute;
+    top: 0;
+    padding-left: 27px;
+    line-height: 22px;
+}
+.agrement>p:last-child a{
+    color: #2ac4f5;
+}
+.agrement>p:last-child a:hover{
+    text-decoration: underline;
+}
+
+.reg-footer {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #edf1f2;
+    position: fixed;
+    bottom: 4px;
+}
+
+.reg-footer img {
+    height: 20px;
+    margin: 10px 12px 10px 24px;
+    vertical-align: middle;
+}
+
+.reg-footer span {
+    color: #787d85;
+    font-size: 12px;
+}
