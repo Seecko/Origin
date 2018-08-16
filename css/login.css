@@ -111,14 +111,13 @@ body {
 .login-content-form-userpass span:hover {
   background-color: #c3c6ce; }
 
-.login-content-form-msg{
-	margin-bottom: 24px;
-	height: 24px;
-	line-height: 24px;
-	color: #df3d00;
-	font-size: 16px;
-	display: none;
-}
+.login-content-form-msg {
+  margin-bottom: 24px;
+  height: 24px;
+  line-height: 24px;
+  color: #df3d00;
+  font-size: 16px;
+  display: none; }
 
 .login-content-form-remenber {
   margin-bottom: 20px;

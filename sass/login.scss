@@ -1,0 +1,170 @@
+body{
+    position: relative;
+}
+.login-header{
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    height: 58px;
+    padding-left: 40px;
+    border-bottom: 1px solid #c3c6ce;
+}
+.login-header a{
+    box-sizing: border-box;
+    float: left;
+    margin-right: 36px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #000;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+}
+.login-header a:first-child{
+    border-color: #f56c2d;
+}
+
+.login-content{
+    padding: 36px 40px;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    margin-top: 58px;
+}
+.login-content h1{
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+.login-content-form{
+    width: 100%;
+    margin-bottom: 6px;
+}
+.login-content-form-useremail,.login-content-form-userpass{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+}
+.login-content-form-useremail{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.login-content-form-userpass{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 24px;
+}
+.login-content-form-useremail input,.login-content-form-userpass input{
+    box-sizing: border-box;
+    height: 45px;
+    width: 100%;
+    padding: 0 10px 0 40px;
+    border: 1px solid #c3c6ce;
+    position: relative;
+    top: -1px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.login-content-form-useremail input:focus,.login-content-form-userpass input:focus{
+    border: 1px solid #f56c2d;
+}
+.login-content-form-useremail input{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: none;
+}
+.login-content-form-userpass input{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.login-content-form-useremail i,.login-content-form-userpass i{
+    position: absolute;
+    font-size: 22px;
+    z-index: 1;
+    left: 10px;
+    color: #c3c6ce;
+}
+.login-content-form-useremail i:last-child,.login-content-form-userpass i:last-child{
+    top: 0;
+    left: 390px;
+    width: 22px;
+    color: #df3d00;
+    display: none;
+}
+.login-content-form-userpass span{
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #c3c6ce;
+    background-color: #edf1f2;
+    border-radius: 4px;
+    top: 6px;
+    right: 10px;
+    font-size: 14px;
+}
+.login-content-form-userpass span:hover{
+    background-color: #c3c6ce;
+}
+.login-content-form-msg{
+    margin-bottom: 24px;
+    height: 24px;
+    line-height: 24px;
+    color: #df3d00;
+    font-size: 16px;
+    display: none;
+}
+.login-content-form-remenber{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+}
+.remenberCheck{
+    display: inline-block;
+    border: 1px solid #c3c6ce;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.remenberCheck:hover{
+    border: 1px solid #f56c2d;
+}
+.icon-check{
+    font-size: 14px;
+    color: #fff;
+}
+.login-content a:last-child{
+    color: #2ac4f5;
+    line-height: 24px;
+}
+.login-content a:last-child:hover{
+    text-decoration: underline;
+}
+
+.login-footer{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #edf1f2;
+    position: fixed;
+    bottom: 4px;
+}
+.login-footer img{
+    height: 20px;
+    margin: 10px 12px 10px 24px;
+    vertical-align: middle;
+}
+.login-footer span{
+    color: #787d85;
+    font-size: 12px;
+}
